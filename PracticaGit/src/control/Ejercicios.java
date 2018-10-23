@@ -130,17 +130,6 @@ public class Ejercicios {
 				return w;
 	}
 	
-	public int[] generaEstadisticaAparicion (int n, int inferior, int superior) {
-		
-		int[] lanzar = this.generaListaAleatorios(n, inferior, superior);
-		int[] resultado = new int[superior - inferior + 1];
-		for (int i = lanzar.length) {
-			
-		}
-		
-		return resultado;
-		
-	}
 
 	public static void main(String[] args) {
 		Persona juan;
