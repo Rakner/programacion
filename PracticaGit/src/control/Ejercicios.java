@@ -130,6 +130,15 @@ public class Ejercicios {
 				return w;
 	}
 	
+	
+	public Persona [] devolverListaPersonas (int n) {
+		Persona [] resultado = new Persona[n];
+		for (int i = 0; i < n; i++) 
+				resultado [i] = new Persona();
+		return resultado;
+		
+	}
+	
 
 	public static void main(String[] args) {
 		Persona juan;
@@ -150,6 +159,7 @@ public class Ejercicios {
 		/*int menor = Ejercicios.calNumeroMenos(23, 43, 4, 35);
 		System.out.println("el menor es: " + menor);*/
 		int x=4, y=5, z=75, w=19;
+		Persona [] misPersonas = ejercicios.devolverListaPersonas(5);
 		System.out.println("el menor es : " + ejercicios.calNumeroMenos(x, y, z, w)); 
 		System.out.println("FIN DE PROGRAMA");
 	}
